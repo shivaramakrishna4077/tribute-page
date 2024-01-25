@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+#main{
+    font-family: 'Single Day', cursive;
+    color: rgb(246, 10, 10);
+    margin:  0 auto;
+    max-width: 800px; 
+    padding:20px;
+    background-color: aquamarine;
+    border-radius: 108px 126px 184px 10px;
+    box-shadow: 18px 20px 41px 21px rgba(0,0,0,0.75);
+   
+}
+#main:hover{
+    transform: scale(1.0);rotate:(-6) ;
+}
+#img-div {
+    text-align: center;
+    margin-bottom: 50px;
+}
+    
+img{
+    width: 70%;
+    border-radius: 108px 126px 184px 10px;
+    box-shadow: 3px 11px 26px 10px rgba(0,0,0,0.96);
+}
+#img-div:hover {
+    transform: scale(1.5); rotate:(-10deg);
+    transition: transform 0.3s ease-in-out
+    
+
+}
+
+
+#figure {
+    max-width: 100%;
+}
+figcaption{
+    color: blue;
+    font-size: 20px;
+    margin-top: 10px;
+
+}
+
+#tribute-info p{
+    text-align: justify;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+#list-movies{
+    margin-top: 20px;
+   margin-bottom: 10px;
+}
+#list-movies li {
+    margin-bottom: 10px;
+}
+q{
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 25px;
+    font-style: italic;
+}
+
